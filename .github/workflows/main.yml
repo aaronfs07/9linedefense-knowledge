@@ -28,6 +28,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: us-southeast-1
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_EC2_METADATA_DISABLED: true
 
     - name: Sync output to S3
       run: |
