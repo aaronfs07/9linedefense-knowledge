@@ -23,7 +23,7 @@ jobs:
         args: --acl public-read --follow-symlinks --guess-mime-type --delete
 
       env:
-        AWS_S3_ENDPOINT: us-southeast-1.linodeobjects.com
+        AWS_S3_ENDPOINT: https://us-southeast-1.linodeobjects.com
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: us-southeast-1
