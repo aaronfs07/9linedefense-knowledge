@@ -20,7 +20,7 @@ jobs:
     - name: Configure AWS credentials
       uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --follow-symlinks --guess-mime-type --delete
+        args: --acl public-read --follow-symlinks --delete
 
       env:
         AWS_S3_ENDPOINT: https://us-southeast-1.linodeobjects.com
