@@ -1,0 +1,21 @@
+site_name: Aaron's Brain
+site_url: https://aaron-knowledge.website-us-southeast-1.linodeobjects.com
+
+repo_name: aaronfs07/aaron-knowledge
+repo_url: https://github.com/aaronfs07/aaron-knowledge
+
+theme: 
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      accent: blue grey
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      accent: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode

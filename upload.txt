@@ -1,0 +1,1 @@
+s3cmd put --no-mime-magic --guess-mime-type --acl-public ./* s3://aaron-knowledge --recursive
