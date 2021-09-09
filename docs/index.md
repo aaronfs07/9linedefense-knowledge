@@ -1,6 +1,6 @@
-# Welcome to Brain Picker 
+# Welcome to 9 Line Defense's Knowledge Base!
 
-** I created a virtual one for you because I'm tired of you picking mine.**
+** Learn Continually - there's always "one more thing" to learn! -Steve Jobs**
 
   
 
