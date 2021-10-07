@@ -1,3 +1,5 @@
+[![Upload Website](https://github.com/aaronfs07/aaron-knowledge/actions/workflows/main.yml/badge.svg)](https://github.com/aaronfs07/aaron-knowledge/actions/workflows/main.yml)
+
 # aaron-knowledge
 A Github respository for Updating the knowledgebase site [https://knowledge.9linedefense.com](https://knowledge.9linedefense.com)
 

@@ -3,23 +3,34 @@ name: Upload Website
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  mkdocs:
+    name: Build and deploy mkdocs site
+    runs-on: ubuntu-18.04
+
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
 
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
+    - name: Build
+      uses: jnanadarshan/mkdocs-build-action@v0.24
+
+    - name: Configure AWS credentials
+      uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl public-read --delete --guess-mime-type
-        AWS_S3_ENDPOINT: us-southeast-1.linodeobjects.com
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-southeast-1
+        args: --acl public-read --follow-symlinks --delete
 
-    - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./site/ s3://aaron-knowledge --delete
+      env:
+        AWS_S3_ENDPOINT: https://us-southeast-1.linodeobjects.com
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: us-southeast-1
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_EC2_METADATA_DISABLED: true
+        SOURCE_DIR: 'site'
+
+##    - name: Sync output to S3
+##      run: |
+##        aws s3 sync ./site/ s3://my-s3-bucket --delete

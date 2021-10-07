@@ -1,8 +1,8 @@
-site_name: Aaron's Brain
+site_name: 9 Line Defense Knowledgebase
 site_url: https://aaron-knowledge.website-us-southeast-1.linodeobjects.com
 
-repo_name: aaronfs07/aaron-knowledge
-repo_url: https://github.com/aaronfs07/aaron-knowledge
+repo_name: aaronfs07/9linedefense-knowledge
+repo_url: https://github.com/aaronfs07/9linedefense-knowledge
 edit_uri: edit/development/docs/
 
 theme: 
