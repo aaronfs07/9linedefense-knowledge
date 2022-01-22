@@ -41,4 +41,4 @@ As mentioned above you can place this on a share, HDD, CD, or pretty much anywhe
 
 ## Want some assistance configuring your equipment or solution? Have a Business?
 
-Please contact me at [FletchTec](www.fletchtec.com) for more information on our project prices or managed consulting!
+Please contact me at [FletchTec](https://www.fletchtec.com) for more information on our project prices or managed consulting!
