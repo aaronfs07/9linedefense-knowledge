@@ -22,3 +22,7 @@ All to often it is difficult to learn new things. Especially in technology field
 ## Wanna download a local copy for offline use?
 
 Head to [Releases](https://github.com/aaronfs07/9linedefense-knowledge/releases) and download our newest release to place on your HDD, Share Drive or anywhere else information is stored readily accessible. Once downloaded you can access this guide using any markdown editor. I highly recommend [obisdian](https://obsidian.md/download).
+
+## Want some assistance configuring your equipment or solution? Have a Business?
+
+Please contact me at [FletchTec](www.fletchtec.com) for more information on our project prices or managed consulting!
