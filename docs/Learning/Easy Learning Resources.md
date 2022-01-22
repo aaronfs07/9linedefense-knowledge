@@ -14,3 +14,4 @@ If you are a member of the US Military I highly recommend the following sites!
 
 - [A Cloud Guru](https://acloudguru.com/)
 - [Microsoft TechNet](https://techcommunity.microsoft.com/)
+- [Reddit Sys Admin Sub](https://www.reddit.com/r/sysadmin/)

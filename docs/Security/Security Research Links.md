@@ -9,3 +9,4 @@
 [Krebs on Security](https://krebsonsecurity.com/)
 [Ars Technica](https://arstechnica.com/)
 [Threat Post](https://threatpost.com/)
+[Reddit RedTeamSec](https://www.reddit.com/r/redteamsec/)

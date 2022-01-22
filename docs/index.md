@@ -19,4 +19,6 @@ All to often it is difficult to learn new things. Especially in technology field
 ** Be aware that files are written in Markdown and compiled using MkDocs. Please format everything accordingly. **
 
 
+## Wanna download a local copy for offline use?
 
+Head to [Releases](https://github.com/aaronfs07/9linedefense-knowledge/releases) and download our newest release to place on your HDD, Share Drive or anywhere else information is stored readily accessible. Once downloaded you can access this guide using any markdown editor. I highly recommend [obisdian](https://obsidian.md/download).
