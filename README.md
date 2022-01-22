@@ -5,7 +5,7 @@ A Github respository for Updating the knowledgebase site [https://knowledge.9lin
 
 Go there and check it out! 
 
-- All documents are written in Markdwon format 
+- All documents are written in Markdown format 
 - To contribute please request permission to this repository and then make your own pull request
 
 
