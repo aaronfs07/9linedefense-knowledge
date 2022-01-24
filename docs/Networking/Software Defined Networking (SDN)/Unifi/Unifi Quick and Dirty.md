@@ -1,6 +1,6 @@
 # Unifi 
 
-![UnifiLineup](https://knowledge.9linedefense.com.us-southeast-1.linodeobjects.com/assets/images/unifilineup.png){ loading=lazy }
+![UnifiLineup](img/unifilineup.png){ loading=lazy }
 
 
 ## What is Unifi?
@@ -21,4 +21,4 @@ If you are not the server hosting type it is worth noting that the Unifi OS Cons
 
 (This image was provided from Evan McCann, I highly recommend you read his blog post on Unifi linked [here](https://evanmccann.net/blog/unifi-ecosystem-overview))
 
-![UnifiEquipmentComparison](https://knowledge.9linedefense.com.us-southeast-1.linodeobjects.com/assets/images/Unifi Equipment Comparison 2021.png)
+![UnifiEquipmentComparison](img/Unifi Equipment Comparison 2021.png)
