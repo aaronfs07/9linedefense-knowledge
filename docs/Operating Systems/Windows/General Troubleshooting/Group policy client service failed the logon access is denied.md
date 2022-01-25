@@ -1,14 +1,20 @@
-Normally a reboot of the RDS farm. If that is not working then I would run the following in powershell 
-test-computersecurechannel
-If it comes back true it is good to go. Move on to the below 
-See if you can ping 10.10.10.95
-If you can move on
-See if you You login and get a temporary profile. Same way he is logging in. 
-The group policy failure means there is some network disconnect between Danny's profile the rds
+# Group Policy Client Service Failed the Logon
+
+Actual Error: Group Policy Client service failed the logon access is denied.
+
+## Troubleshooting Steps
+
+1. Ping the Domain Controller
+2. Reboot the Server the issue is occuring on (if possible) 
+3. Open Powershell and run ```test-computersecurechannel``` if it comes back as true than move on. 
+4. Try logging on with another user
+5. If the logon with another user works investigate if they are using Redirected Folders or roaming profiles. These can cause this issue. 
 
 
-Reboot MMPV-RD*, MMPV-RG*, and MMPV-RA*,
-The star being a wildcard. For example MMPV-RD01-OPPV
-Make sure users aren't logged in before rebooting 
-Another test troubleshooting item is to login and go to C:\Users and find Danny's username and right-click and rename it to username.old
-Username being Danny's username. Just add .old. And then have him log back in
+## General Meaning
+
+This error typically pops up when a machine is unable to run a group policy object that is being applied. I have typically seen this error when you have long running scripts, roaming profiles, or redirected folders. 
+
+## Typical Solution
+
+Login with another user and if the troubleshooting steps above fail rename the users profile folder (typically located in C:\Users) to %username%.bak and allow the user to establish another profile. 
