@@ -4,7 +4,7 @@
 
 ## 9 Lines of Defense
 
-This is by far a personal philosophy of managing teams of Cyber Professionals. No one person can be good at everything however everyone can provide something. Not everyone will agree with the items I have put below and most will not agree that they even embody a defensive strategy for IT. However I firmly believe that if these 9 Tenants are followed in an IT/Cyber Team than you can not go wrong. Defense must embody more than Cyber Security. During my time in the Air Force I have learned that Defense or Mission Assurance is more than AV Software and Monitoring. It is evreything that touches our networks and systems. Including the systems themselves. There is no difference to an organization at the end user level between a ransomware attack that locks all of the companies data and a disaster where all the primary data sources are lost and there are no backups. To reach my end goal I have created this site, this site is embodying the 1st and 2nd of the tenants below. 
+This is by far a personal philosophy of managing teams of Cyber Professionals. No one person can be good at everything however everyone can provide something. Not everyone will agree with the items I have put below and most will not agree that they even embody a defensive strategy for IT. However I firmly believe that if these 9 Tenants are followed in an IT/Cyber Team than you can not go wrong. Defense must embody more than Cyber Security. During my time in the Air Force I have learned that Defense or Mission Assurance is more than AV Software and Monitoring. It is everything that touches our networks and systems. Including the systems themselves. There is no difference to an organization at the end user level between a ransomware attack that locks all of the companies data and a disaster where all the primary data sources are lost and there are no backups. To reach my end goal I have created this site, this site is embodying the 1st and 2nd of the tenants below.
 
 1. Smart & Inquisitive Technicians
 2. Thorough & Often Training
@@ -20,13 +20,13 @@ This is by far a personal philosophy of managing teams of Cyber Professionals. N
 
 All to often it is difficult to learn new things. Especially in technology fields where the path to a solution or setup can often be paved with many hours of blood, sweat and typing. This website is meant to alleviate all of that by allowing you to let me do the blood, sweat and yelling on your behalf. Here you will find the curated knowledge and how-to guides that I wish that I had. I **hope** one day this will make learning a topic or setting something up easier for someone.
 
-## Got something to provide? 
+## Got something to provide?
 
-1. On the top right hand corner click on the github link. 
-2. Once open feel free to clone the directory and start making minor corrections/additions! 
+1. On the top right hand corner click on the github link.
+2. Once open feel free to clone the directory and start making minor corrections/additions!
 3. Once ready request collaboration rights on the repo from aaronfs07@hotmail.com
-4. If permissions are granted feel free to create a branch, update your changes and create a pull request! 
-5. Look forward to seeing your addition. 
+4. If permissions are granted feel free to create a branch, update your changes and create a pull request!
+5. Look forward to seeing your addition.
 
 ** Be aware that files are written in Markdown and compiled using MkDocs. Please format everything accordingly. **
 
