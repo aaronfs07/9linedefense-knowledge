@@ -1,6 +1,6 @@
- # Temporary Profiles
+# Temporary Profiles
 
-## DESCRIPTION: 
+## DESCRIPTION:
 This SOP describes all necessary steps to remove a temporary profile from a PC.  
 ## DEFINITION:  
 This error will occur when there was an error downloading the users profile from the server.  
@@ -15,8 +15,8 @@ This will only be conducted by IT personnel.
 5. Log out of PC and have user login.
 
 ## Notes
-- This procedure should **NOT** require a reboot of the system itself. Considering that this issue is very common on Windows environments that download a profile from somewhere it is most likely NOT a machine itself issue. 
+- This procedure should **NOT** require a reboot of the system itself. Considering that this issue is very common on Windows environments that download a profile from somewhere it is most likely NOT a machine itself issue.
 
 ## Futher Troubleshooting
-- Once the .bak file is cleared ensure that the system can reach the roaming profile/redirected desktop storage location. 
-- If the environment is a remote desktop farm ensure that this procedure is run on **ALL** member servers. 
+- Once the .bak file is cleared ensure that the system can reach the roaming profile/redirected desktop storage location.
+- If the environment is a remote desktop farm ensure that this procedure is run on **ALL** member servers.
