@@ -1,4 +1,4 @@
- # Temporary Profiles
+# Temporary Profiles
 
 ## DESCRIPTION: 
 This SOP describes all necessary steps to remove a temporary profile from a PC.  
