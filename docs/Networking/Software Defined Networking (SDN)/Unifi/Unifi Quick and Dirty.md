@@ -1,8 +1,6 @@
 # Unifi 
 
-![Unifi Lineup](https://knowledge.9linedefense.com.us-southeast-1.linodeobjects.com/img/unifilineup.png){ loading=lazy }
-
-
+![Unifi Lineup](https://knowledge.9linedefense.com.us-southeast-1.linodeobjects.com/img/unifilineup.png)
 
 ## What is Unifi?
 
