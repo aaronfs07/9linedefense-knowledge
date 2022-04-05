@@ -10,3 +10,5 @@
 [Ars Technica](https://arstechnica.com/)
 [Threat Post](https://threatpost.com/)
 [Reddit RedTeamSec](https://www.reddit.com/r/redteamsec/)
+[Level1Techs](https://forum.level1techs.com)
+[National Security Archives](https://nsarchive.gwu.edu/)
