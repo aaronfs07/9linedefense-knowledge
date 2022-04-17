@@ -17,4 +17,4 @@ This will only be conducted by IT personnel.
 - This procedure should **MAY** require a reboot of the system itself.
 
 ## Futher Troubleshooting
-- None
+- If this does not change the version then we will need to search for the "Windows Update Assistant". Download the tool and run it to upgrade to the latest versions.
