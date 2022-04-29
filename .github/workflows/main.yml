@@ -14,8 +14,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Build
-      uses: jnanadarshan/mkdocs-build-action@v0.24
+    - name: Build MkDocs code
+      uses: moonpathbg/mkdocs_builder@latest
 
     - name: Configure AWS credentials
       uses: jakejarvis/s3-sync-action@master
